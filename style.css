@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  
+}
+
+.main-layout {
+  font-size: 17px;
+  color: #505050;
+  line-height: 1.6;
+  margin-right: 100px;
+  margin-left: 100px;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.box {
+  background: #f58dffa1;
+  padding: 30px 48px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.header-text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.header-image-container {
+  width: 30%;
+  padding: 0;
+}
+
+.header-image-container img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: #00188a;
+  line-height: 1.1;
+  letter-spacing: 5px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  color: #00188a;
+  margin-bottom: 12px;
+  letter-spacing: 4px;
+  margin-top: 0;
+}
+
+.about {
+  margin-bottom: 12px;
+}
+
+.main {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.experience {
+  width: 65%;
+}
+
+.qualifications {
+  width: 35%;
+}
+
+.experience-items {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.job-title {
+  color: #000000;
+  font-size: 21px;
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: 600;
+}
+.hobby-title {
+  color: #000000;
+  font-size: 19px;
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.degree {
+  color: #000000;
+  font-weight: 600;
+}
+.certificate-title {
+  color: #000000;
+  font-weight: 600;
+}
+.company {
+  letter-spacing: 2px;
+  margin: 5px 0;
+  color: #00188a;
+  text-decoration: underline;
+}
+
+.date {
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.experience-item ul li {
+  margin-bottom: 16px;
+}
+.hobby-description {
+  margin: 5px 0;
+}
+.sub-title {
+  display: flex;
+  justify-content: space-between;
+}
